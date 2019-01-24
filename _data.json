@@ -1,0 +1,16 @@
+{
+    "hello-world": {
+        "title": "Hello World.",
+        "date": "2019-01-23"
+    },
+    "hello-brazil": {
+        "title": "Hello Brazil.",
+        "date": "2019-01-01"
+    },
+    "listlayout": {
+        "layout": false
+    },
+    "index": {
+        "title": "单独设置的title"
+    }
+}

@@ -1,0 +1,15 @@
+doctype
+html
+  head
+    title= title
+    meta(name="description" content="#{ description }")
+    link(rel="stylesheet" href="./main.css")
+    script( src="/jquery.js")
+  body
+    section
+      != yield
+    style.
+      body {background: #eee}
+    
+    //h5= myproject_data.hello-world.title
+    #footer.dd 使用了公共的footer

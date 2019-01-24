@@ -1,0 +1,22 @@
+//局部引用某个组件
+!= partial("_header")
+
+//全局变量引用
+h3 #{globals}
+h1.header 欢迎来到首页
+h3 首页首页首页
+    | 多行
+    | 多行
+
+- var data = {key: 'key0',value: 'value1'}
+//方法1,方法2
+h3= data.key
+h4 #{data.value.toUpperCase()}
+ul
+    - for (var item in data)
+        li= data[item]
+
+
+a(href="./listlayout.html") 跳转list
+&nbsp;&nbsp;&nbsp;&nbsp;
+a(href="listlayout.jade") 跳转详情页
